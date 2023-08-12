@@ -1,5 +1,5 @@
 import app from "./app";
-import dbConn from "./configs/configs.dbConn";
+import dbConn from "./configs/dbConn.config";
 
 const PORT = process.env.PORT || 500;
 
