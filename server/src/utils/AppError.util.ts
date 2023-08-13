@@ -4,12 +4,12 @@ export interface IAppError extends Error {
 
 class AppError extends Error implements IAppError {
   // eslint-disable-next-line no-unused-vars, @typescript-eslint/no-explicit-any, @typescript-eslint/no-unused-vars
-  keyValue(keyValue: any) {
-    throw new Error("Method not implemented!");
-  }
+  // keyValue(keyValue: any) {
+  //   throw new Error("Method not implemented!");
+  // }
 
-  code: number | undefined;
-  path: unknown;
+  // code: number | undefined;
+  // path: unknown;
 
   constructor(
     message: string,
